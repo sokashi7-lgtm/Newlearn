@@ -3,15 +3,166 @@
 <html lang="kn">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>ನಮ್ಮ ಸಹಕಾರ ಸಂಘ</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f6fc;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #064e3b, #159957);
+            color: white;
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        header h1 {
+            font-size: 25px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 16px;
+        }
+
+        nav {
+            background-color: #023b2d;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 8px;
+            font-size: 15px;
+        }
+
+        .container {
+            padding: 15px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 18px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #00000015;
+        }
+
+        .card h2 {
+            color: #087443;
+            border-bottom: 2px solid #e0eee6;
+            padding-bottom: 10px;
+        }
+
+        .welcome {
+            text-align: center;
+            font-size: 20px;
+            color: #064e3b;
+        }
+
+        footer {
+            background-color: #023b2d;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            margin-top: 25px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 21px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 6px;
+            }
+        }
+    </style>
 </head>
+
 <body>
 
+<header>
     <h1>ಶಿಕ್ಷಣ ಇಲಾಖೆ ನೌಕರರ ಸಹಕಾರ ಸಂಘ</h1>
+    <p>ಚಿಕ್ಕನಾಯಕನಹಳ್ಳಿ</p>
+    <p>ನಮ್ಮ ಸಂಘ — ನಮ್ಮ ಹೆಮ್ಮೆ</p>
+</header>
 
-    <h2>ಅಧ್ಯಕ್ಷರ ಸಂದೇಶ</h2>
+<nav>
+    <a href="#home">ಮುಖಪುಟ</a>
+    <a href="#message">ಅಧ್ಯಕ್ಷರ ಸಂದೇಶ</a>
+    <a href="#officers">ಪದಾಧಿಕಾರಿಗಳು</a>
+    <a href="#contact">ಸಂಪರ್ಕ</a>
+</nav>
 
-    <p>ನಮ್ಮ ಸಹಕಾರ ಸಂಘಕ್ಕೆ ಆತ್ಮೀಯ ಸ್ವಾಗತ.</p>
+<div class="container">
+
+    <section class="card" id="home">
+        <h2>ನಮ್ಮ ಸಂಘಕ್ಕೆ ಸ್ವಾಗತ</h2>
+        <p class="welcome">
+            ತುಮಕೂರು ಜಿಲ್ಲೆ ಶಿಕ್ಷಣ ಇಲಾಖೆ ನೌಕರರ ಸಹಕಾರ ಸಂಘ
+        </p>
+        <p>
+            ನಮ್ಮ ಸಂಘವು ಸದಸ್ಯರ ಆರ್ಥಿಕ ಅಭಿವೃದ್ಧಿ,
+            ಸಹಕಾರ ಮತ್ತು ಸೇವೆಯ ಉದ್ದೇಶದಿಂದ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.
+        </p>
+    </section>
+
+    <section class="card" id="message">
+        <h2>ಅಧ್ಯಕ್ಷರ ಸಂದೇಶ</h2>
+        <p>
+            ಆತ್ಮೀಯ ಸದಸ್ಯರೇ,
+        </p>
+        <p>
+            ನಮ್ಮ ಸಹಕಾರ ಸಂಘವು ಸದಸ್ಯರ ವಿಶ್ವಾಸ ಮತ್ತು ಸಹಕಾರದಿಂದ
+            ಬೆಳೆಯುತ್ತಿದೆ. ಸದಸ್ಯರ ಹಿತಾಸಕ್ತಿ ಕಾಪಾಡುವುದು,
+            ಆರ್ಥಿಕ ಸೇವೆಗಳನ್ನು ಒದಗಿಸುವುದು ಮತ್ತು ಸಂಘದ
+            ಅಭಿವೃದ್ಧಿಗೆ ಶ್ರಮಿಸುವುದು ನಮ್ಮ ಮುಖ್ಯ ಉದ್ದೇಶವಾಗಿದೆ.
+        </p>
+        <p>
+            ನಿಮ್ಮೆಲ್ಲರ ಸಹಕಾರ ಸದಾ ಇರಲಿ.
+        </p>
+        <p><strong>ಅಧ್ಯಕ್ಷರು</strong></p>
+    </section>
+
+    <section class="card" id="officers">
+        <h2>ಪದಾಧಿಕಾರಿಗಳ ಪಟ್ಟಿ</h2>
+        <p>ಅಧ್ಯಕ್ಷರು: ಶಿವಕುಮಾರ್</p>
+        <p>ಉಪಾಧ್ಯಕ್ಷರು: __________</p>
+        <p>ಕಾರ್ಯದರ್ಶಿಗಳು: __________</p>
+        <p>ನಿರ್ದೇಶಕರು: __________</p>
+    </section>
+
+    <section class="card">
+        <h2>ನಮ್ಮ ಸಾಲ ಸೌಲಭ್ಯಗಳು</h2>
+        <p>ವೇತನ ಸಾಲ — 10.75%</p>
+        <p>ಆಧಾರ ಸಾಲ — 9.75%</p>
+    </section>
+
+    <section class="card" id="contact">
+        <h2>ಸಂಪರ್ಕ ಮಾಹಿತಿ</h2>
+        <p>ಶಿಕ್ಷಣ ಇಲಾಖೆ ನೌಕರರ ಸಹಕಾರ ಸಂಘ</p>
+        <p>ಚಿಕ್ಕನಾಯಕನಹಳ್ಳಿ</p>
+        <p>ದೂರವಾಣಿ: __________</p>
+    </section>
+
+</div>
+
+<footer>
+    <p>© ನಮ್ಮ ಸಹಕಾರ ಸಂಘ</p>
+    <p>ಸಹಕಾರವೇ ನಮ್ಮ ಶಕ್ತಿ</p>
+</footer>
 
 </body>
 </html>
